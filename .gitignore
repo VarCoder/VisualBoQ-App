@@ -3,3 +3,4 @@ tempCodeRunner.py
 /*.xlsm
 /*.docx
 tempCodeRunnerFile.py
+__pycache__/
