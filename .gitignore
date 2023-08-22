@@ -1,6 +1,6 @@
 tmp/
+__pycache__/
 tempCodeRunner.py
 /*.xlsm
 /*.docx
 tempCodeRunnerFile.py
-__pycache__/
