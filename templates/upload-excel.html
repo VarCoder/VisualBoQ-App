@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Upload/View Excel</title>
+    <script>
+        function doSomething(){
+            document.getElementById("button").disabled = true;
+        }
+    </script>
+</head>
+ 
+<body>
+    <h1>Upload Excel File (.xlsx)</h1>
+    <form id="button" action="{{ url_for('view') }}" method="post" enctype="multipart/form-data" onsubmit="this.querySelectorAll('[type=submit]').forEach(b => b.disabled = true)">
+        <input type="file" name="file"
+            accept=".xl*">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+ 
+</html>
